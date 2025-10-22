@@ -135,5 +135,5 @@ for i in range(100):
 
     snr  = a['A2']/a['A2s']
 
-    with open(output_file, 'w') as f:
+    with open(output_file, 'a') as f:
         f.write(f'{snr}\n')
